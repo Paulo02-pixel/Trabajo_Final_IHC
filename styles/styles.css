@@ -148,5 +148,167 @@ p {
     border-radius: 10px;
 }
 
+.how-we-achieve {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
 
+.achieve-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.trophy-image {
+    flex: 1;
+}
+
+.trophy-img {
+    width: 350px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.achieve-content {
+    flex: 2;
+    text-align: left;
+}
+
+.achieve-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.achieve-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achieve-content ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.achieve-content ul li::before {
+    content: "✔";
+    color: #147B2A;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.food-preferences {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.preferences-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.preferences-text {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: left;
+}
+
+.preferences-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.preferences-text p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.preferences-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.celular-image {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;       
+    margin: 0 auto;         
+}
+
+.phone-image {
+    flex: 1;
+}
+
+.phone-img {
+    width: 450px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.segunda-opciones {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.opciones-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.opciones-text {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: left;
+}
+
+.opciones-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.opciones-text p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.opciones-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.celular-image-0 {
+    flex: 1;
+}
+
+.celular-img {
+    width: 450px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.celular-image-1 {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;       
+    margin: 0 auto;         
+}
